@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kaushan Script", cursive;
+  outline: none;
+}
+.navbar {
+  padding: 0 6%;
+}
+.nav-link {
+  color: #000b0d;
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+  transition: 0.5s ease;
+  margin-left: 2rem;
+  text-align: center;
+}
+.nav-link:hover {
+  color: #e3371e;
+  border-bottom: 2px solid #e3371e;
+}
+#services {
+  background-color: #000b0d;
+  color: #dddddd;
+  padding: 2rem 6%;
+}
+#services h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #e3371e;
+}
+.services-content .card {
+  width: 18rem;
+  min-height: 20rem;
+  transition: 0.5s ease;
+}
+.card-img-top {
+  width: 18rem;
+  height: 18rem;
+}
+.services-content .card:hover {
+  transform: scale(1.1);
+}
+.services-content .card-body {
+  text-align: center;
+}
+.services-content .card-body h5 {
+  color: #e3371e;
+}
+.services-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#get-in-touch {
+  padding: 2rem 6%;
+  background-color: #dddddd;
+  color: #000b0d;
+}
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.get-in-touch button {
+  margin: 1rem 0;
+  background: transparent;
+  color: #000b0d;
+  border: 1px solid #000b0d;
+  border-radius: 10px;
+  padding: 0.8rem;
+  transition: 0.5s ease;
+}
+.get-in-touch button:hover {
+  background-color: #000b0d;
+  color: #e3371e;
+  transform: scale(1.1);
+}
+footer {
+  padding: 1rem 6%;
+  background-color: #000b0d;
+  color: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+footer ul li a {
+  color: #dddddd;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .navbar,
+  #services {
+    padding: 0 2%;
+  }
+  .services-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-content .card {
+    margin-bottom: 2rem;
+    width: 30rem;
+  }
+  footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2%;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .services-content .card {
+    margin-bottom: 2rem;
+    width: 18rem;
+  }
+}

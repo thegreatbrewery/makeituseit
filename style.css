@@ -335,6 +335,7 @@ footer ul li a {
     height: 14rem;
   }
   footer {
+    text-align: center;
     display: flex;
     flex-direction: column;
     padding: 1rem 2%;
