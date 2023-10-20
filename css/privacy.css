@@ -7,9 +7,10 @@
 }
 .navbar {
   padding: 0 6%;
+  background-color: #000b0d;
 }
 .nav-link {
-  color: #000b0d;
+  color: #dddddd;
   border-bottom: 2px solid transparent;
   font-weight: bold;
   transition: 0.5s ease;
@@ -66,5 +67,6 @@ footer ul li a {
   }
   footer p {
     font-size: 1rem;
+    order: 2;
   }
 }
